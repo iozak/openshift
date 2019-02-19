@@ -411,7 +411,7 @@ def error(bot, update, error):
 
 def main():
     # Create the EventHandler and pass it your bot's token.
-    updater = telegram.Updater(token)
+    updater = telegram.Updater(TOKEN)
 
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
@@ -472,5 +472,5 @@ def main():
             update_queue.put(text)
 
 if __name__ == '__main__':
-    main()
+    setup()
 
