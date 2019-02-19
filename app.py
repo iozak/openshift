@@ -411,7 +411,6 @@ def error(bot, update, error):
 
 def main():
     # Create the EventHandler and pass it your bot's token.
-    token = '654683530:AAFqaA6wMtG6uoLwJH-HLk3_AUE5P8lWVMs'
     updater = telegram.Updater(token)
 
     # Get the dispatcher to register handlers
